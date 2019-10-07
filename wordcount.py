@@ -21,6 +21,9 @@ def count_words(filename):
     
 
 def print_dictionary(given_dictionary):
+    """Prints given dictionary by key, value pairs in strings"""
+
+    
     for word, value in given_dictionary.items():
         print(f"{word} {value}")
 
